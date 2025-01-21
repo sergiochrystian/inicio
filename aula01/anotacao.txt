@@ -1,0 +1,32 @@
+                    
+                    TIPOS DE DADOS
+
+Uma variável pode armazenar um valor dos tipos.
+
+* String ou str (texto): Identificada por " " ou ' ' (aspas dupla ou simples)
+* Número ou int (decimal ou inteiro): Sem aspas
+* Boolean (verdade ou mentira): verdadeiro ou falso
+* null
+* undefined
+* NaN (Not a Number) Não é número.
+* ...outros
+
+
+        ALGUMAS MANEIRAS PARA CONVERTER TIPOS
+
+* Number()              parseInt() e parseFloat()
+* Boolean()             !
+* String()              .toString()
+
+
+                COMO SABER QUAL O TIPO
+
+É possível chegar o tipo, no javascipt, usando o operador typeof
+
+...
+
+console.log("Olá, mundo!")
+Essa linha poderá ser vista apenas no INSPESIONAR do navegado acessando a página CONSOLE.
+
+
+

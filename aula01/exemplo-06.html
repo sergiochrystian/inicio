@@ -8,7 +8,35 @@
 <body>
     <script>
 
-        console.log("Hello, Word!");
+        let mensagem = 'Olá, eu sou um "texto"'
+        console.log(mensagem);
+
+        let kk = true
+        console.log(typeof kk)
+
+        console.log(Boolean("0"))           // True
+        console.log(Boolean(0))             // False
+        console.log(Boolean(undefined))     // False
+        console.log(Boolean(null))          // False
+        console.log(Boolean(""))            // False
+        console.log(Boolean(NaN))           // False
+
+        let naoDeclarado = null
+        console.log(naoDeclarado)
+        naoDeclarado = 0
+        console.log(naoDeclarado)
+
+        let n = parseFloat("a")
+        console.log(n)
+        console.log(typeof n)
+        console.log("-------")
+        console.log(typeof undefined)
+        console.log(typeof null)
+        console.log(typeof 0)
+        console.log(typeof "")
+        console.log(typeof true)
+
+        console.log(typeof ((10).toString()))
 
     </script>
 </body>

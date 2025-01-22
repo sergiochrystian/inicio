@@ -26,7 +26,7 @@ Uma variável pode armazenar um valor dos tipos.
 ...
 
 console.log("Olá, mundo!")
-Essa linha poderá ser vista apenas no INSPESIONAR do navegado acessando a página CONSOLE.
+Essa linha poderá ser vista apenas no INSPESIONAR do navegador acessando a página CONSOLE.
 
 
 

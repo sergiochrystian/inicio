@@ -6,11 +6,42 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Operadores de Comparação</h1>
+    <h2>Acesse o inspecionar do navegador, aba console</h2>
+
     <script>
     
-    let num = prompt("Digite doi números")
+    // let num = prompt("Digite doi números")
 
-    console.log( 5 == 5)
+
+    console.log(5 == 5)
+    // true. Compara se dois valores são iguai
+
+    console.log(5 == 3)
+    // false. Compara se dois valores são iguais
+
+    console.log("5" == 5)
+    // true. Compara se os valores são iguais, o resultado é true porque dois == não comparam tipo.
+
+    console.log("5" === 5)
+    // false. Compara se dois valores são iguais E se os tipos tbm são iguais (String e Number)
+
+    console.log(5 != 5)
+    // false. Compara se o número é diferente do outro.
+
+    console.log(5 != 3)
+    // true. Cinso é diferente de três.
+
+    console.log("5" != 5)
+    // false. Compara apenas o valor, portanto, 5 não é diferente de 5
+
+    console.log("5" !== 5)
+    // true. Nesse caso é comparado o valor e o tipo, então a string 5 é SIM diferente do número 5.
+
+    console.log(2 < 3)
+
+
+
     </script>
 </body>
 </html>
